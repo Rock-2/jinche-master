@@ -1010,7 +1010,7 @@ img:nth-of-type(5n) {
 #aboutus .desc .descbox .maintitle {
   font-size: 18px;
   font-weight: 700;
-  padding-left: 80px;
+  padding-left: 8px;
   margin-top: 0;
 }
 #aboutus .desc .descbox .title {
@@ -1019,7 +1019,7 @@ img:nth-of-type(5n) {
   padding: 0 80px 26px;
 }
 #aboutus .desc .descbox .maindesc {
-  padding: 0 80px 26px;
+  padding: 0 8px 26px;
   line-height: 1.4;
 }
 /*首页导航栏影藏*/
@@ -1596,12 +1596,14 @@ img:nth-of-type(5n) {
   #slidebox .swiper-background .swiper-slide .personal-content h3,
   #slidebox .swiper-background .swiper-slide .gama-content h3,
   #slidebox .swiper-background .swiper-slide .professional-content h3 {
-    text-align: center;
+    text-align: left;
+    padding-left: 2%;
   }
   #slidebox .swiper-background .swiper-slide .personal-content h4,
   #slidebox .swiper-background .swiper-slide .gama-content h4,
   #slidebox .swiper-background .swiper-slide .professional-content h4 {
-    text-align: center;
+    text-align: left;
+    padding-left: 2%;
   }
   #slidebox .swiper-background .swiper-slide .personal-content ul,
   #slidebox .swiper-background .swiper-slide .gama-content ul,
@@ -1611,8 +1613,10 @@ img:nth-of-type(5n) {
   #slidebox .swiper-background .swiper-slide .personal-content ul li,
   #slidebox .swiper-background .swiper-slide .gama-content ul li,
   #slidebox .swiper-background .swiper-slide .professional-content ul li {
-    text-align: center;
+    text-align: left;
     list-style: none;
+    padding-left: 2%;
+    width: 290px;
   }
   #slidebox .swiper-background .swiper-slide .personal-content .btn,
   #slidebox .swiper-background .swiper-slide .gama-content .btn,
